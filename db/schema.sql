@@ -1,6 +1,7 @@
 DROP DATABASE IF EXISTS burgers_db;
 CREATE DATABASE burgers_db;
-USE burgers_db;
+-- USE burgers_db;
+USE jawsDBname;
 
 CREATE TABLE burgers (
 id INT (10) AUTO_INCREMENT NOT NULL,
@@ -10,4 +11,6 @@ date TIMESTAMP,
 PRIMARY KEY(id)
 );
 
-SELECT * FROM burgers
+SELECT * FROM burgers;
+
+INSERT INTO burgers (name,devoured) VALUES ('gary','1');
