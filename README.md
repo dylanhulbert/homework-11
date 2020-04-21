@@ -4,4 +4,7 @@ I created the contents of this repo as homework for my Bootcamp at UofO
 * Express
 * [Handlebars](https://handlebarsjs.com/)
 * MySQL
+* Heroku
+* Bootstrap CSS
 ### Additional notes/lessons learned
+

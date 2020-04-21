@@ -13,5 +13,20 @@
 }
 
 div {
-  background-color: tan;
+  background-color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+link {
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  color: black;
+  font-family: 'Work Sans', sans-serif;
 }
