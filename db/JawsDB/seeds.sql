@@ -1,7 +1,9 @@
-USE burgers_db;
+USE dstpdpsnf7ozg9fq;
 
 INSERT INTO burgers (burger_name, devoured) VALUES 
 ("Squirrel", 0),
+("Fish", 0),
+("Gary", 0),
 ("Veggie", 1),
 ("Beef", 1),
 ("Chicken", 1),

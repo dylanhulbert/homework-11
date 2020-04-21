@@ -4,7 +4,6 @@ I created the contents of this repo as homework for my Bootcamp at UofO
 * Express
 * [Handlebars](https://handlebarsjs.com/)
 * MySQL
-* Heroku
-* Bootstrap CSS
+* Heroku/JawsDB
 ### Additional notes/lessons learned
-
+Also used Bootstrap CSS, Google Fonts, and Font Awesome.

@@ -11,5 +11,3 @@ PRIMARY KEY(id)
 );
 
 SELECT * FROM burgers;
-
-INSERT INTO burgers (name,devoured) VALUES ('gary','1');
