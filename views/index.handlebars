@@ -1,7 +1,16 @@
-<h1>Burgers!</h1>
 
-<h2>Burgers that are not devoured!</h2>
+<div class="container">
+<div class="row"></div>
+    <div class="col">
 
+<div class="text-center">
+  <img src="https://clip.cookdiary.net/sites/default/files/wallpaper/burger-clipart/449811/burger-clipart-transparent-background-449811-5297078.png" class="center img-fluid" style="width:300px">
+</div>
+
+    </div>
+  <div class="row">
+    <div class="col">
+      <h2>Burgers that are not devoured!</h2>
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -11,9 +20,12 @@
 </ul>
 
 
-<h2>Burgers that are devoured!</h2>
 
-<ul>
+    </div>
+    <div class="col">
+
+<h2>Burgers that are devoured!</h2>
+      <ul>
   {{#each burgers}}
     {{#if devoured}}
       {{> burgers/burger-block devoured=false}}
@@ -21,13 +33,37 @@
   {{/each}}
 </ul>
 
-<h2>Add a Burger</h2>
+
+    </div>
+
+
+    
+  </div>
+  
+  <div class="row"></div>
+    <div class="col">
+
+
+<h2>Add a new Burger</h2>
+{{!-- <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Burger Name" aria-label="Burger Name" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add It!</button>
+  </div>
+</div> --}}
+
 <form class="create-form">
 
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" burger_name="burger_name">
+
+
+  <div class="form-group input-group mb-3">
+    {{!-- <label for="ca">Burger Name:</label> --}}
+    <input type="text" id="ca" burger_name="burger_name" aria-label="Burger Name" aria-describedby="button-addon2">
+    <div class="input-group-append"></div>
+  <button type="submit" class="AddBurger btn btn-outline-secondary">Add Burger</button>
+</form>
   </div>
+
 
   <div class="form-group">
     <label for="devoured">Devoured?</label><br>
@@ -35,5 +71,7 @@
     <input type="radio" burger_name="devoured" value="0"> Not Devoured!</br>
   </div>
 
-  <button type="submit" class="AddBurger">Add a Burger</button>
-</form>
+
+
+  </div>
+</div>
