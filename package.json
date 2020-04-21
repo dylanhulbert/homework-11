@@ -17,5 +17,13 @@
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
   },
-  "description": "An MVC app"
+  "description": "An MVC app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanhulbert/homework-11.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dylanhulbert/homework-11/issues"
+  },
+  "homepage": "https://github.com/dylanhulbert/homework-11#readme"
 }
